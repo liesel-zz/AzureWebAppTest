@@ -1,6 +1,6 @@
 var http = require('http');
 const appInsights = require("applicationinsights");
-appInsights.setup("12fe6d6e-a431-46a5-b597-e37c43cac43a");
+appInsights.setup("dde5233f-06d6-4471-8afe-af07401319e9");
 appInsights.start();
 
 http.createServer(function (req, res) {
