@@ -1,7 +1,7 @@
 var http = require('http');
-//const appInsights = require("applicationinsights");
-//appInsights.setup(process.env['APPINSIGHT']);
-//appInsights.start();
+const appInsights = require("applicationinsights");
+appInsights.setup(process.env['APPINSIGHT']);
+appInsights.start();
 
 http.createServer(function (req, res) {
     
